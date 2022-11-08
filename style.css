@@ -54,3 +54,9 @@ body{
 .flip{
     transform: rotateY(180deg);
 }
+@media screen and (max-width: 600px){
+    .container{
+        margin: 200px auto;
+        height: 420px;
+    }
+}
